@@ -39,6 +39,3 @@ console.log(typeof(text));
 console.log(text);
 console.log(typeof(text));
 
-// convert text object to JSON object
-
-   

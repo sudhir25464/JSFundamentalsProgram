@@ -70,7 +70,23 @@ console.log(num);
 num.length = 12;
 console.log(num);
 
+let digits = [1,2, 3,4, 5,6,7,8,9,10];
+
+for(let i =0; i<digits.length; i++){
+    console.log(digits[i]);
+}
 
 
+// use forEachLopp
+courses.forEach(function myfunction(elements){
+    console.log(elements);
+})
 
+let arr1 = ['ram', 'shayam', 'Sohan'];
+let arr2 = ['Gita', 'Sita', 'Neha'];
 
+let concateArry = arr1.concat(arr2);
+console.log(concateArry);
+
+console.log(concateArry.toString());
+console.log(typeof(concateArry.toString()));

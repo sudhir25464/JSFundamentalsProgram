@@ -15,4 +15,4 @@
  // for example
   let arr2 = [1,3,5,7,9];
   arr2.forEach((e)=> console.log(e*10));
-  console.log(arr2);
+  

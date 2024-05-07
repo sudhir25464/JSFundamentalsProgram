@@ -31,6 +31,6 @@ console.log(names1[2]);
 
 console.log(names1[names1.length-1]); // its give tha last elemebt of Array
 
-console.log(names1[names1.length-2]);
+console.log(names1[names1.length-2]); // its return second last element of Array
 
 

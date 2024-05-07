@@ -1,5 +1,5 @@
 
-// call backfunction
+//Use of  callback function
 
 function add(x,y){
     return x+y;

@@ -20,9 +20,6 @@ deepcopy.address.city ='Banglore';
 
 
 console.log(shallowcopy);
-console.log(deepcopy);
-let myArray= [1,2,3,4,24,5,25,3,3,53,53];
-const myset = new Set (myArray);
-console.log(myset);
-const newArray = [...myset];
-console.log(newArray);
+// console.log(deepcopy);
+
+

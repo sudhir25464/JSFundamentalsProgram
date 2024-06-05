@@ -60,6 +60,15 @@ const filter_integervalue = numbers.filter(value=> Number.isInteger(value));
 console.log(filter_integervalue);
 
 
+const multi_layer_array = [1,2,3,[3,4,],6,7,8,4[4,5,6]];
+console.log(multi_layer_array.flat(Infinity));
+
+
+// It converts string to array 
+console.log(Array.from("sudhir"));
+// splice :
+
+
 // Create custom array 
 // const customArray = {
 //     array: [],

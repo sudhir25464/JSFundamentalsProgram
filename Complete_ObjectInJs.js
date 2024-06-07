@@ -79,3 +79,15 @@ console.log(tinderUser);
 // We can Access onle key or value of Object 
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
+
+// OBJECT DESTRUCTORING 
+const course = {
+    courseId: "1001",
+    courseName :"JavaScript",
+    courseFree:3000
+}
+
+const {courseId: id,courseName} = course;
+console.log(id);
+console.log(courseName);
+

@@ -12,23 +12,28 @@ series.add(50);
 series.add(10);
 
 console.log(series);
-// check size of set
-console.log(series.size);
 
-// search element in set
+const latter = new Set(['a', 'b', 'c', 'd', 'e', 'f']);
+// const letters = new Set(["a","b","c"]);
 
-console.log(series.has(40)); // true
-console.log(series.has(60)); // false
-// delete elemet from set
-console.log(series.delete(10));
-console.log(series);
+//has method();
 
-// Filter Dublictae value from Arrya
+let result = latter.has("d");
+console.log(result);
 
-let array = [2,3,4,5,6,3,34,6,6,600];
+// delete method();
+console.log(latter.delete("d"));
+console.log(latter)
 
-console.log(array);
+for (let x of latter){
+    console.log(x+" ");
+}
+// // Filter Dublictae value from Arrya
 
-let newArray =new Set(array);
-let  uniqueArrayvalue  = [...newArray];
-console.log(uniqueArrayvalue);
+// let array = [2,3,4,5,6,3,34,6,6,600];
+
+// console.log(array);
+
+// let newArray =new Set(array);
+// let  uniqueArrayvalue  = [...newArray];
+// console.log(uniqueArrayvalue);

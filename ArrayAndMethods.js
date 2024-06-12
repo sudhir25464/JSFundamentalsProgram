@@ -48,11 +48,10 @@ console.log(c);
 
 // Filter() :  Get an array of element that satisfies a condition
 
-let filter_result =numbers.filter((num)=>{
+let filter_result = numbers.filter((num)=>{
     if (num%2 !== 0)
         return num;
 })
-
 console.log(filter_result);
 
 // filter only intger values

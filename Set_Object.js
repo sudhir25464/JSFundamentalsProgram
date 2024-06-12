@@ -25,6 +25,7 @@ console.log(result);
 console.log(latter.delete("d"));
 console.log(latter)
 
+
 for (let x of latter){
     console.log(x+" ");
 }

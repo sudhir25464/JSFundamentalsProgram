@@ -77,3 +77,4 @@ const myCoding = [
 myCoding.forEach((item,index, myCoding)=>{
     console.log(item.languages, index,);
 })
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+
+    var doc =document.querySelectorAll('h2');
+      
+
+
+    </script> -->
+</head>
+<body>
+
+    <h1 class="header" id="head">Dom Mnipulation</h1>
+    <p class="text" id="lorem-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, quia.</p>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem libero molestias dolorem natus qui. Aut hic incidunt possimus nesciunt? Officia!</h2>
+    <ul>
+        <li> 1 Lorem ipsum dolor sit amet.</li>
+        <li> 2 Lorem ipsum dolor sit amet.</li>
+        <li > 3 Lorem 3 </li>
+        <button id=" button">stop</button>
+    </ul>
+
+</body>
+<script>
+    // setTimeout(function()  {
+
+    //     alert("SetTime called ")
+        
+    // }, 2000);
+
+    // const sayalert = function(){
+    //     alert("Time out ");
+    // }
+    // setTimeout(sayalert, 2000);
+
+    const changeText = function (){
+        document.getElementById('head').innerHTML ="Best Heading ";
+    }
+
+
+    const changeme = setTimeout(changeText, 3000)
+
+    document.querySelector('#button').addEventListener('click', function(){
+        clearTimeout(changeme);
+        console.log("stoped");
+    })
+
+
+
+
+
+
+</script>
+</html>

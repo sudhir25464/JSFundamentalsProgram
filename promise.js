@@ -97,15 +97,4 @@ async function consumePromise(){
 consumePromise();
 
 
-// On the Way promise
- async function getAlluser(){
-    try {
-        const responce = await fetch('https://github.com/users/sudhir25464')
-        
-        console.log(responce);
-    } catch (error) {
-        
-    }
- }
 
-getAlluser();
